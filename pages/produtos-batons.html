@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Batons de alta qualidade - La Beaute Bea. Cores vibrantes e duradouras para todos os estilos e ocasiões.">
+    <title>Batons - La Beaute Bea</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/produtos.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">La Beaute Bea</div>
+                <ul class="nav-menu">
+                    <li><a href="../index.html#inicio" class="nav-link">Início</a></li>
+                    <li><a href="../index.html#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="../index.html#produtos" class="nav-link">Produtos</a></li>
+                    <li><a href="../index.html#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb-list">
+                <li class="breadcrumb-item">
+                    <a href="../index.html" class="breadcrumb-link">Início</a>
+                </li>
+                <li class="breadcrumb-separator">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="../index.html#produtos" class="breadcrumb-link">Produtos</a>
+                </li>
+                <li class="breadcrumb-separator">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </li>
+                <li class="breadcrumb-item active">Batons</li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="pagina-produtos">
+            <div class="container">
+                <div class="pagina-produtos-header">
+                    <h1 class="pagina-produtos-titulo">Batons</h1>
+                    <p class="pagina-produtos-descricao">Descubra nossa coleção exclusiva de batons com cores vibrantes, texturas incríveis e longa duração. Perfeitos para todos os estilos e ocasiões.</p>
+                </div>
+
+                <div class="filtros-produtos">
+                    <button class="filtro-btn ativo" data-filtro="todos">Todos</button>
+                    <button class="filtro-btn" data-filtro="matte">Matte</button>
+                    <button class="filtro-btn" data-filtro="glossy">Glossy</button>
+                    <button class="filtro-btn" data-filtro="liquido">Líquido</button>
+                </div>
+
+                <div class="produtos-catalogo">
+                    <article class="produto-item fade-in-up" data-categoria="matte">
+                        <div class="produto-imagem-container" style="background: linear-gradient(135deg, #DC143C 0%, #8B0000 100%);">
+                            <div class="produto-icone-grande">
+                                <i class="fa-solid fa-kiss-wink-heart"></i>
+                            </div>
+                            <span class="produto-badge">Bestseller</span>
+                        </div>
+                        <div class="produto-info">
+                            <span class="produto-categoria">Matte</span>
+                            <h3 class="produto-nome">Vermelho Intenso</h3>
+                            <p class="produto-detalhes">Batom matte com alta pigmentação e acabamento aveludado. Fórmula enriquecida com vitamina E para hidratação duradoura.</p>
+                            <div class="produto-cores">
+                                <p class="cores-titulo">Cores disponíveis:</p>
+                                <div class="cores-lista">
+                                    <span class="cor-circulo" style="background: #DC143C;" title="Vermelho Intenso"></span>
+                                    <span class="cor-circulo" style="background: #8B0000;" title="Vermelho Escuro"></span>
+                                    <span class="cor-circulo" style="background: #FF6347;" title="Vermelho Coral"></span>
+                                </div>
+                            </div>
+                            <div class="produto-preco-container">
+                                <span class="produto-preco">R$ 89,90</span>
+                                <button class="btn-comprar">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-item fade-in-up" data-categoria="glossy">
+                        <div class="produto-imagem-container" style="background: linear-gradient(135deg, #FFC0CB 0%, #FF69B4 100%);">
+                            <div class="produto-icone-grande">
+                                <i class="fa-solid fa-crown"></i>
+                            </div>
+                            <span class="produto-badge">Novo</span>
+                        </div>
+                        <div class="produto-info">
+                            <span class="produto-categoria">Glossy</span>
+                            <h3 class="produto-nome">Rosa Nude Glamour</h3>
+                            <p class="produto-detalhes">Batom glossy com brilho intenso e efeito volumizador. Textura cremosa que desliza suavemente nos lábios.</p>
+                            <div class="produto-cores">
+                                <p class="cores-titulo">Cores disponíveis:</p>
+                                <div class="cores-lista">
+                                    <span class="cor-circulo" style="background: #FFC0CB;" title="Rosa Nude"></span>
+                                    <span class="cor-circulo" style="background: #FFB6C1;" title="Rosa Claro"></span>
+                                    <span class="cor-circulo" style="background: #FF69B4;" title="Rosa Choque"></span>
+                                    <span class="cor-circulo" style="background: #C71585;" title="Rosa Escuro"></span>
+                                </div>
+                            </div>
+                            <div class="produto-preco-container">
+                                <span class="produto-preco">R$ 79,90</span>
+                                <button class="btn-comprar">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-item fade-in-up" data-categoria="liquido">
+                        <div class="produto-imagem-container" style="background: linear-gradient(135deg, #A0522D 0%, #8B4513 100%);">
+                            <div class="produto-icone-grande">
+                                <i class="fa-solid fa-droplet"></i>
+                            </div>
+                            <span class="produto-badge">Lançamento</span>
+                        </div>
+                        <div class="produto-info">
+                            <span class="produto-categoria">Líquido</span>
+                            <h3 class="produto-nome">Matte Líquido Pro</h3>
+                            <p class="produto-detalhes">Batom líquido com acabamento matte perfeito. Ultra duradouro, não transfere e mantém os lábios confortáveis o dia todo.</p>
+                            <div class="produto-cores">
+                                <p class="cores-titulo">Cores disponíveis:</p>
+                                <div class="cores-lista">
+                                    <span class="cor-circulo" style="background: #8B4513;" title="Marrom Nude"></span>
+                                    <span class="cor-circulo" style="background: #A0522D;" title="Terracota"></span>
+                                    <span class="cor-circulo" style="background: #D2691E;" title="Caramelo"></span>
+                                </div>
+                            </div>
+                            <div class="produto-preco-container">
+                                <span class="produto-preco">R$ 94,90</span>
+                                <button class="btn-comprar">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-item fade-in-up" data-categoria="matte">
+                        <div class="produto-imagem-container" style="background: linear-gradient(135deg, #CD5C5C 0%, #BC8F8F 100%);">
+                            <div class="produto-icone-grande">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <span class="produto-badge">Elegante</span>
+                        </div>
+                        <div class="produto-info">
+                            <span class="produto-categoria">Matte</span>
+                            <h3 class="produto-nome">Rosewood Elegance</h3>
+                            <p class="produto-detalhes">Tom rosado sofisticado com acabamento matte sedoso. Ideal para uso diário com toque de elegância.</p>
+                            <div class="produto-cores">
+                                <p class="cores-titulo">Cores disponíveis:</p>
+                                <div class="cores-lista">
+                                    <span class="cor-circulo" style="background: #BC8F8F;" title="Rosewood"></span>
+                                    <span class="cor-circulo" style="background: #CD5C5C;" title="Rose"></span>
+                                    <span class="cor-circulo" style="background: #F08080;" title="Light Coral"></span>
+                                    <span class="cor-circulo" style="background: #E9967A;" title="Dark Salmon"></span>
+                                </div>
+                            </div>
+                            <div class="produto-preco-container">
+                                <span class="produto-preco">R$ 84,90</span>
+                                <button class="btn-comprar">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-item fade-in-up" data-categoria="glossy">
+                        <div class="produto-imagem-container" style="background: linear-gradient(135deg, #FF1493 0%, #DC143C 100%);">
+                            <div class="produto-icone-grande">
+                                <i class="fa-solid fa-fire"></i>
+                            </div>
+                            <span class="produto-badge">Destaque</span>
+                        </div>
+                        <div class="produto-info">
+                            <span class="produto-categoria">Glossy</span>
+                            <h3 class="produto-nome">Cherry Gloss</h3>
+                            <p class="produto-detalhes">Gloss vibrante com aroma delicioso de cereja. Proporciona brilho intenso e hidratação profunda.</p>
+                            <div class="produto-cores">
+                                <p class="cores-titulo">Cores disponíveis:</p>
+                                <div class="cores-lista">
+                                    <span class="cor-circulo" style="background: #DC143C;" title="Cherry Red"></span>
+                                    <span class="cor-circulo" style="background: #FF1493;" title="Deep Pink"></span>
+                                    <span class="cor-circulo" style="background: #FF6B9D;" title="Pink Rose"></span>
+                                </div>
+                            </div>
+                            <div class="produto-preco-container">
+                                <span class="produto-preco">R$ 69,90</span>
+                                <button class="btn-comprar">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-item fade-in-up" data-categoria="liquido">
+                        <div class="produto-imagem-container" style="background: linear-gradient(135deg, #9370DB 0%, #8B008B 100%);">
+                            <div class="produto-icone-grande">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            </div>
+                            <span class="produto-badge">Vegano</span>
+                        </div>
+                        <div class="produto-info">
+                            <span class="produto-categoria">Líquido</span>
+                            <h3 class="produto-nome">Berry Supreme</h3>
+                            <p class="produto-detalhes">Batom líquido com cor intensa de frutas vermelhas. Fórmula vegana e cruelty-free com longa duração.</p>
+                            <div class="produto-cores">
+                                <p class="cores-titulo">Cores disponíveis:</p>
+                                <div class="cores-lista">
+                                    <span class="cor-circulo" style="background: #8B008B;" title="Berry"></span>
+                                    <span class="cor-circulo" style="background: #9370DB;" title="Purple"></span>
+                                    <span class="cor-circulo" style="background: #BA55D3;" title="Orchid"></span>
+                                    <span class="cor-circulo" style="background: #DDA0DD;" title="Plum"></span>
+                                </div>
+                            </div>
+                            <div class="produto-preco-container">
+                                <span class="produto-preco">R$ 89,90</span>
+                                <button class="btn-comprar">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-item fade-in-up" data-categoria="matte">
+                        <div class="produto-imagem-container" style="background: linear-gradient(135deg, #DEB887 0%, #D2B48C 100%);">
+                            <div class="produto-icone-grande">
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="produto-badge">Favorito</span>
+                        </div>
+                        <div class="produto-info">
+                            <span class="produto-categoria">Matte</span>
+                            <h3 class="produto-nome">Nude Perfect</h3>
+                            <p class="produto-detalhes">O nude perfeito para todas as tonalidades de pele. Acabamento matte natural e confortável.</p>
+                            <div class="produto-cores">
+                                <p class="cores-titulo">Cores disponíveis:</p>
+                                <div class="cores-lista">
+                                    <span class="cor-circulo" style="background: #D2B48C;" title="Nude Claro"></span>
+                                    <span class="cor-circulo" style="background: #DEB887;" title="Nude Médio"></span>
+                                    <span class="cor-circulo" style="background: #BC8F8F;" title="Nude Rosado"></span>
+                                    <span class="cor-circulo" style="background: #8B7355;" title="Nude Escuro"></span>
+                                </div>
+                            </div>
+                            <div class="produto-preco-container">
+                                <span class="produto-preco">R$ 79,90</span>
+                                <button class="btn-comprar">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-item fade-in-up" data-categoria="liquido">
+                        <div class="produto-imagem-container" style="background: linear-gradient(135deg, #FF7F50 0%, #FF6347 100%);">
+                            <div class="produto-icone-grande">
+                                <i class="fa-solid fa-sun"></i>
+                            </div>
+                            <span class="produto-badge">Novo</span>
+                        </div>
+                        <div class="produto-info">
+                            <span class="produto-categoria">Líquido</span>
+                            <h3 class="produto-nome">Coral Sunset</h3>
+                            <p class="produto-detalhes">Tom coral vibrante inspirado no pôr do sol. Perfeito para looks frescos e modernos do dia a dia.</p>
+                            <div class="produto-cores">
+                                <p class="cores-titulo">Cores disponíveis:</p>
+                                <div class="cores-lista">
+                                    <span class="cor-circulo" style="background: #FF7F50;" title="Coral"></span>
+                                    <span class="cor-circulo" style="background: #FF6347;" title="Tomato"></span>
+                                    <span class="cor-circulo" style="background: #FF4500;" title="Orange Red"></span>
+                                </div>
+                            </div>
+                            <div class="produto-preco-container">
+                                <span class="produto-preco">R$ 84,90</span>
+                                <button class="btn-comprar">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="produto-item fade-in-up" data-categoria="glossy">
+                        <div class="produto-imagem-container" style="background: linear-gradient(135deg, #FFDAB9 0%, #FFB347 100%);">
+                            <div class="produto-icone-grande">
+                                <i class="fa-solid fa-gem"></i>
+                            </div>
+                            <span class="produto-badge">Premium</span>
+                        </div>
+                        <div class="produto-info">
+                            <span class="produto-categoria">Glossy</span>
+                            <h3 class="produto-nome">Peach Glow</h3>
+                            <p class="produto-detalhes">Gloss com reflexos pêssego delicados. Enriquecido com óleos nutritivos para lábios macios e brilhantes.</p>
+                            <div class="produto-cores">
+                                <p class="cores-titulo">Cores disponíveis:</p>
+                                <div class="cores-lista">
+                                    <span class="cor-circulo" style="background: #FFDAB9;" title="Peach"></span>
+                                    <span class="cor-circulo" style="background: #FFE4B5;" title="Moccasin"></span>
+                                    <span class="cor-circulo" style="background: #FFEFD5;" title="Papaya"></span>
+                                    <span class="cor-circulo" style="background: #FFB347;" title="Apricot"></span>
+                                </div>
+                            </div>
+                            <div class="produto-preco-container">
+                                <span class="produto-preco">R$ 74,90</span>
+                                <button class="btn-comprar">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div style="margin-top: 3rem; text-align: center;">
+                    <a href="../index.html" class="btn-voltar">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        Voltar para Início
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-texto">&copy; 2025 La Beaute Bea. Todos os direitos reservados.</p>
+            <p class="footer-assinatura">Feito com cuidado e dedicação</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            inicializarFiltrosProdutos();
+            inicializarAnimacoesProdutos();
+        });
+
+        function inicializarFiltrosProdutos() {
+            const filtros = document.querySelectorAll('.filtro-btn');
+            const produtos = document.querySelectorAll('.produto-item');
+
+            filtros.forEach(filtro => {
+                filtro.addEventListener('click', function() {
+                    filtros.forEach(btn => btn.classList.remove('ativo'));
+                    this.classList.add('ativo');
+
+                    const categoriaFiltro = this.getAttribute('data-filtro');
+
+                    produtos.forEach(produto => {
+                        const categoriaProduto = produto.getAttribute('data-categoria');
+                        
+                        if (categoriaFiltro === 'todos' || categoriaFiltro === categoriaProduto) {
+                            produto.style.display = 'block';
+                            setTimeout(() => {
+                                produto.classList.add('visible');
+                            }, 10);
+                        } else {
+                            produto.classList.remove('visible');
+                            setTimeout(() => {
+                                produto.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        }
+
+        function inicializarAnimacoesProdutos() {
+            const produtos = document.querySelectorAll('.produto-item');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add('visible');
+                        }, index * 100);
+                    }
+                });
+            }, {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            });
+
+            produtos.forEach(produto => {
+                observer.observe(produto);
+            });
+        }
+    </script>
+</body>
+</html>
+
